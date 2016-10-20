@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+          background-color: aliceblue;
+    }
+    h2 {
+        background-color: blue;
+        color:white;
+    }
+    table, td {
+        border: 1px solid black;
+        background-color: beige;
+    }
+</style>
+</head>
+<body>
+<h2>Example for Rowspan and Colspan</h2>
+<table>
+  <caption style="color:red;font-size:30px">Time Table</caption>
+  <tr style="background:aqua">
+    <th>DAY</th>
+    <th>10-11</th>
+    <th>11-12</th>
+    <th>12-1</th>
+    <th>1-2</th>
+    <th>2-3</th>
+    <th>3-4</th>
+    <th>4-5</th>
+  </tr>
+  <tr>
+    <td>MON</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td rowspan='6' style="background:coral">LUNCH</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>TUE</td>
+    <td colspan='3' align="center" style="background:bisque">Colspan 1</td>    
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>WED</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td colspan="3" align="center" style="background:bisque">Colspan 2</td>    
+  </tr>
+  <tr>
+    <td>THR</td>
+    <td colspan="3" align="center" style="background:bisque">Colspan 3</td>    
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>FRI</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+  <tr>
+    <td>SAT</td>
+    <td colspan="3" align="center" style="background:bisque">Outing</td>
+    <td colspan="3" align="center" style="background:bisque">Party</td>    
+  </tr>  
+</table>
+
+</body>
+</html>
+
